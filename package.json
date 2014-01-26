@@ -3,6 +3,7 @@
     "description": "expirements with promises",
     "version": "0.0.1",
     "dependencies": {
+        "promise": "3.2.0",
         "q": "1.0.0"
     },
     "engines": {
