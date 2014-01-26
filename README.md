@@ -1,6 +1,6 @@
 # node-promised-land
 
-## looping
+## recusion/looping
 
 ### ./looping/finite-promises.js
 On my machine, this code repeatably counts up to 3394 (might have seen 3393 once or twice):
