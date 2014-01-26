@@ -16,7 +16,8 @@ On my machine, this code repeatably counts up to 3394 (might have seen 3393 once
 
     loop(0);
 
-A variant (./looping/finite-promises-variant.js) using promise from npm:
+A variant (./looping/finite-promises-variant.js) using promise from npm which gets up to
+2729 repeatably:
 
     var Promise = require('promise');
 
@@ -28,8 +29,6 @@ A variant (./looping/finite-promises-variant.js) using promise from npm:
     };
 
     loop(0);
-
-This one gets up to 2729 repeatably.
 
 ### ./looping/infinite-promises.js
 This code however blows past 3394 and keeps on going:
