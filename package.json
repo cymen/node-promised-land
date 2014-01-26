@@ -1,0 +1,28 @@
+{
+    "name": "promised-land",
+    "description": "expirements with promises",
+    "version": "0.0.1",
+    "dependencies": {
+        "q": "1.0.0"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "devDependencies": {
+        "grunt": "0.4.1",
+        "grunt-contrib-jshint": "0.6.4",
+        "grunt-jasmine-node": "0.1.0",
+        "grunt-jsbeautifier": "0.2.2"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/cymen/promised-land/blob/master/LICENSE"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cymen/promised-land"
+    },
+    "scripts": {
+        "test": "jasmine-node --forceexit spec"
+    }
+}
